@@ -1,3 +1,5 @@
+titleLint:
+  pattern: (feat|fix|docs|chore|style|refactor|perf|test): .*
 wip:
   terms:
     - wip
