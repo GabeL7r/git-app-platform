@@ -1,15 +1,9 @@
 const config = require('./config');
 const { Application } = require('./Application')
-const wip = require('@codesherpas/wip');
+const { apps } = require('./apps');
 
 const baseURL = '/github'
-const apps = [
-    {
-        name: 'wip',
-        handle: wip.handle,
-        type: 'status'
-    }
-]
+
 
 function register(api) {
     apps.forEach( app => {
@@ -43,4 +37,4 @@ function registerApp(app) {
     }
 }
 
-module.exports = { register, apps }
+module.exports = { register }
