@@ -3,6 +3,7 @@
     "main": "index.js",
     "dependencies": {
         "@codesherpas/title-lint": "^1.0.0",
+        "@codesherpas/titlelint": "^1.0.1",
         "@codesherpas/wip": "^1.0.0",
         "@octokit/app": "^2.1.0",
         "@octokit/request": "^2.2.1",

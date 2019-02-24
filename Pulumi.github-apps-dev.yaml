@@ -9,6 +9,9 @@ config:
     secure: AAABAFyvTa0yK4Znz9YBAhuaIAtUqJAWQrkqc4I8l870Dc4mBLPcW2OEe1uPuveE5ehnaMGTZ3108Z773iDSWA4ZJiU=
   github-apps:wip:
     secure: AAABAIG2dxr249EAfohy0TJbVusSY5VWG1bKOQFrtRHtDB/JIq+LdRhIiRBm31ahBlRL5cVxzNBZ3PJoEgHhDQ7shNc=
+  titleLint:appId: "25959"
+  titleLint:secret:
+    secure: AAABAEF/1jkGkclSsTZmU2EUkKKEzwhy6i0v3HXoopmLdcF5u2SEOquJ3hV7nOp31+oTCy5ivFUV/LH6GOfSV9wAkOI=
   wip:appId: "25948"
   wip:secret:
     secure: AAABAI5MxPR7BodtC8OIeCcTkBD8dDsWKsEw3PQit9bvXMoDRfGvoCb8ewwA9GVKFJWEpbWvHtdMFwGR2T9K8gsx/qM=
