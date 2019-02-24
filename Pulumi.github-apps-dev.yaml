@@ -3,6 +3,8 @@ config:
   github-apps:blockWithLabels:
     secure: AAABAJPIqfIz4FmX2dALnjfU7p1OrnMxH4UBF9RG12bQ5EoobOXZx2icpfTVGkogArSwfCfq+sIs8NxG4YBGH3VQYC4=
   github-apps:env: dev
+  github-apps:sentryDSN:
+    secure: AAABAIjmimkGsb2/Gijd8X+Xel8Fux8+d9vTpL5Y2tdY8TeGUT9QFx5jn0l6Vr6gnsTzpuk5rIbruvZ54l7ZeIDRyjiubxv7eFsAsCA5iJ43T2bFp/BBvLCA
   github-apps:titleLint:
     secure: AAABAFyvTa0yK4Znz9YBAhuaIAtUqJAWQrkqc4I8l870Dc4mBLPcW2OEe1uPuveE5ehnaMGTZ3108Z773iDSWA4ZJiU=
   github-apps:wip:
@@ -10,3 +12,5 @@ config:
   wip:appId: "25948"
   wip:secret:
     secure: AAABAI5MxPR7BodtC8OIeCcTkBD8dDsWKsEw3PQit9bvXMoDRfGvoCb8ewwA9GVKFJWEpbWvHtdMFwGR2T9K8gsx/qM=
+  wip:sentryDSN:
+    secure: AAABALEbAu/Dg7HLR+GKt1YdxUMLGObKdlJFKgFFhdUO/++ELWCPErePKnX/flgTxIhS4AkCl/+3sl5crUmEfuvS7EyHjjh+fcOPvFk4xDgpvdw4ODyAMTHl

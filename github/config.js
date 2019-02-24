@@ -10,6 +10,8 @@ if (config.require('env') === 'prod') {
 }
 
 module.exports = {
+	env: config.require('env'),
+	sentry: { dsn: config.require('sentryDSN') },
     wip: {
         appId: wipConfig.require('appId'),
         privateKey: env.wip,

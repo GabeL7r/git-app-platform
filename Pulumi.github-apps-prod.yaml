@@ -3,6 +3,8 @@ config:
   github-apps:blockWithLabels:
     secure: AAABALmGECKMVvZncJRsOkVXOm6RJbfs3NKRTTPzmRHR52nKqoT05CdCqiI5FfTxmDUeRjKclmyvb162BKreKYwZ5/k=
   github-apps:env: prod
+  github-apps:sentryDSN:
+    secure: AAABAKKU9Y6/JKNgBaZ3ZDORljAB4Lvy+3Mg+luNIU2OjvEmZH93F9oAz7gP9z9Bw8W26/0sci54X6IcuRu34qdloJzrPdQci8WKLBibaiUWVxjviXa0sSfu
   github-apps:titleLint:
     secure: AAABAEPc7e0VwIRkSCBWI4LcnL2tR65oAJWZwA88Y9g5AVw0LFh4Sz8lGkGMZXzDI/POEQMObbJRMUUxY1mOZphIHj4=
   github-apps:wip:
