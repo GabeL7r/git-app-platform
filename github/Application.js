@@ -47,6 +47,8 @@ class Application {
 
             console.log('Extended config: ', extendedConfig)
             this.config = merge.all([repoConfig, extendedConfig]);
+        } else if(repoConfig) {
+            this.config = repoConfig
         } else {
             console.log('Getting default config...')
             const defaultConfig = await this.getConfigFile()
